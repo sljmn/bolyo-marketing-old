@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://sljmn.github.io/bolyo-marketing/sitemap.xml
