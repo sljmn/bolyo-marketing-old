@@ -1,0 +1,14 @@
+docs_list_title: someName
+docs:
+
+- title: Start hier
+  url: start
+
+- title: Prijzen
+  url: prijzen
+
+- title: Blog
+  url: blog
+
+- title: FAQ
+  url: faq

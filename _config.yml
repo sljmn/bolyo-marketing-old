@@ -18,8 +18,9 @@ plugins:
 
 # jekyll-seo-tag configuration
 author: ""
-url: ""
-title: ""
+url: https://sljmn.github.io/bolyo-marketing
+title: Bolyo.nl - Product research tool voor Bol.com
+email: hi@bolyo.nl
 description: ""
 twitter:
   username: ""

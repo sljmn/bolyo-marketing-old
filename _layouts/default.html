@@ -10,9 +10,13 @@
 </head>
 
 <body class="bg-primary pt-10  text-white">
+  {% include nav.html %}
   <section class="container text-white m-auto">
     {{ content }}
   </section>
+
+  {% include home-content.html %}
+
 
   {% if jekyll.environment == 'production' %}
   {% include analytics.html %}
