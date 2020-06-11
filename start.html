@@ -1,6 +1,7 @@
 <html>
 
 <head>
+  <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <link type="application/atom+xml" rel="alternate" href="https://sljmn.github.io/bolyo-marketing/feed.xml" title="Bolyo.nl - Product research tool voor Bol.com" />
@@ -23,33 +24,44 @@
   <!-- <link rel="stylesheet" href="https://sljmn.github.io/bolyo-marketing/css/site.css"> -->
 </head>
 
-<body class="bg-primary pt-10  px-4 text-white">
-  <h3 class="font-logo text-4xl -mt-2  sm:mr-8 text-secondary "><a
-    href="https://sljmn.github.io/bolyo-marketing/">Bolyo</a></h3>
+<style>
+  #menu-toggle:checked+#menu {
+    display: block;
+  }
+</style>
+</head>
+
+<body class="font-body">
+  <div class="bg-primary  flex flex-col ">
+    <div class="container mx-auto max-w-screen-lg">
+      <header class="flex  flex-col  sm:flex-row items-center  pb-2   ">
+
+        <h3 class="font-logo text-4xl -mt-2  sm:mr-8 text-secondary "><a
+    href="https://sljmn.github.io/bolyo_marketing_page/">Bolyo</a></h3>
 <nav class="hidden md:flex  ml-2 flex-grow text-lg">
   <!-- <div  id="nav-items" class="nav-items hidden sm:flex flex-grow  ">
-          
-     
-  
-          <a class="text-white hover:text-purple-300 py-3 px-6" href ="https://sljmn.github.io/bolyo-marketing/start">Start hier</a>
-          
-     
-  
-          <a class="text-white hover:text-purple-300 py-3 px-6" href ="https://sljmn.github.io/bolyo-marketing/prijzen">Prijzen</a>
-          
-     
-  
-          <a class="text-white hover:text-purple-300 py-3 px-6" href ="https://sljmn.github.io/bolyo-marketing/blog">Blog</a>
-          
-     
-  
-          <a class="text-white hover:text-purple-300 py-3 px-6" href ="https://sljmn.github.io/bolyo-marketing/faq">FAQ</a>
-          
-        </div> -->
+            
+       
+    
+            <a class="text-white hover:text-purple-300 py-3 px-6" href ="https://sljmn.github.io/bolyo-marketing/start">Start hier</a>
+            
+       
+    
+            <a class="text-white hover:text-purple-300 py-3 px-6" href ="https://sljmn.github.io/bolyo-marketing/prijzen">Prijzen</a>
+            
+       
+    
+            <a class="text-white hover:text-purple-300 py-3 px-6" href ="https://sljmn.github.io/bolyo-marketing/blog">Blog</a>
+            
+       
+    
+            <a class="text-white hover:text-purple-300 py-3 px-6" href ="https://sljmn.github.io/bolyo-marketing/faq">FAQ</a>
+            
+          </div> -->
   <!-- <div class="flex  justify-end ">
-      <a href="https://app.bolyo.nl/users/sign_in" class="text-white  py-3 px-6 mr-4">Log in</a>
-      <a href="https://app.bolyo.nl/users/sign_up" class=" hover:bg-purple-300 rounded border border-secondary text-white mb-2 mt-3 pr-2 pl-2 ">Aanmelden</a>
-    </div> -->
+        <a href="https://app.bolyo.nl/users/sign_in" class="text-white  py-3 px-6 mr-4">Log in</a>
+        <a href="https://app.bolyo.nl/users/sign_up" class=" hover:bg-purple-300 rounded border border-secondary text-white mb-2 mt-3 pr-2 pl-2 ">Aanmelden</a>
+      </div> -->
 </nav>
 <label for="menu-toggle" class="pointer-cursor lg:hidden block"><svg class="fill-current text-white"
     xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
@@ -93,10 +105,10 @@
   </div>
 </div>
 <!-- <button id="nav" class="flex md:hidden flex-col absolute top-0 right-0 p-4 " onclick="openMenu()">
-      <span class="w-5 h-px mb-1 bg-orange-500"></span>
-      <span class="w-5 h-px mb-1 bg-orange-500"></span>
-      <span class="w-5 h-px mb-1 bg-orange-500"></span>
-  </button> -->
+        <span class="w-5 h-px mb-1 bg-orange-500"></span>
+        <span class="w-5 h-px mb-1 bg-orange-500"></span>
+        <span class="w-5 h-px mb-1 bg-orange-500"></span>
+    </button> -->
 
 
 
@@ -106,9 +118,25 @@
 
 
 <!-- <label for="menu-toggle" class="pointer-cursor lg:hidden block"><svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></label>
-  <input class="hidden" type="checkbox" id="menu-toggle" /> -->
-  <section class="border border-1 w-10/12 container w-full text-white mx-auto">
-    <h1 id="start-hier">Start hier</h1>
+    <input class="hidden" type="checkbox" id="menu-toggle" /> -->
+      </header>
+
+
+
+    </div>
+  </div>
+
+
+
+  <div class="container mx-auto p-10 sm:p-0 max-w-screen-lg">
+
+
+
+    <div class="flex mb-4 flex-col sm:flex-row items-center ">
+  
+      <div class="sm:w-full  text-left flex  flex-col justify-center">
+        <h2 class="text-4xl font-bold pb-4 " >  Start hier</h2>
+        <p class="text-xl"><h1 id="start-hier">Start hier</h1>
 
 <p>Content is written in <a href="https://learnxinyminutes.com/docs/markdown/">Markdown</a>.
 Plain text format allows you to focus on your <strong>content</strong>.</p>
@@ -118,95 +146,89 @@ You can use HTML elements in Markdown, such as the comment element, and they won
 be affected by a markdown parser. However, if you create an HTML element in your
 markdown file, you cannot use markdown syntax within that element's contents.
 -->
-
-  </section>
-
-  <div class="container mx-auto p-10 sm:p-0 max-w-screen-lg">
-  <div class="flex mb-4 flex-col sm:flex-row items-center  ">
-    <div class="w-1/2  flex justify-center    ">
-      <div class="img">
-        <img class="max-w-sm sm:mt-12" src="./images/bespaar_geld.png" alt="Bespaar geld met Bolyo">
-      </div>
+</p>
+        </div>
+  
+       
+  
+  
+  
     </div>
-
-    <div class="sm:w-1/2  text-center flex  sm:p-20 items-center flex-col justify-center">
-      <h2 class="text-4xl font-bold pb-4 "> Bespaar geld</h2>
-      <p class="text-xl">Een winnend product vinden om te verkopen op Bol is nog nooit zo makkelijk geweest. Met Bolyo
-        track je producten en kan je precies zien welke producten goed verkopen en waar kansen liggen en welke producten
-        je beter kunt overslaan.</p>
-    </div>
+  
+  
+  
   </div>
 
-  <div class="flex mb-4 flex-col sm:flex-row flex-col-reverse items-center ">
+  <div class="container mx-auto max-w-screen-lg pb-10 sm:pt-20 pt-4">
 
-    <div class="sm:w-1/2  text-center flex  sm:p-20 p-4 items-center flex-col justify-center">
-      <h2 class="text-4xl font-bold pb-4 "> Bespaar tijd</h2>
-      <p class="text-xl">Een winnend product vinden om te verkopen op Bol is nog nooit zo makkelijk geweest. Met Bolyo
-        track je producten en kan je precies zien welke producten goed verkopen en waar kansen liggen en welke producten
-        je beter kunt overslaan.</p>
-    </div>
+  <div class=" pb-16 sm:t-16 text-center  ">
+    <h2 class="text-4xl font-bold ">Ben jij klaar om je Bol.com sales een boost te geven?</h2>
+    <h3 class="text-2xl mb-12">Start gratis met Bolyo!</h3>
 
-
-    <div class="sm:w-1/2  flex justify-center ">
-      <div class="img">
-        <img class="max-w-sm sm:mt-12 " src="./images/bespaar-tijd.png" alt="Bespaar tijd met Bolyo">
-      </div>
-    </div>
-
-
+    <a href="https://app.bolyo.nl/users/sign_up"
+      class="bg-primary   hover:bg-black hover:text-white py-3 px-16 text-white  text-lg font-bold rounded">Gratis
+      aanmelden</a>
+    <p class="mt-4 sm:p-0 p-4">Begin gratis met 1 product, je zit nergens aan vast</p>
   </div>
 
-  <div class="flex mb-4 flex-col sm:flex-row items-center  ">
-    <div class="w-1/2  flex justify-center ">
-      <div class="img">
-        <img class="max-w-sm sm:mt-12" src="./images/focus_sourcing.png" alt="Focus op sourcing">
+
+</div>
+
+
+
+  <div class="bg-gray-100 text-center">
+
+  <div class="container mx-auto max-w-screen-lg pt-20 pb-20">
+    <!-- Three columns -->
+    <div class="flex mb-4 flex-col sm:flex-row ">
+      <div class="sm:w-1/3 sm:pr-12 w-full  ">
+        <h3 class="font-logo text-2xl sm:text-left ">Bolyo</h3>
+
+        <p class="text-l sm:text-left">Kopieren mag.<br> Als je de naam Bolyo daarbij noemt, maak je mij helemaal blij.
+          <br> Copyright 2020 Bolyo <br> </p>
+      </div>
+      <div class="sm:w-1/3 sm:pr-12 w-full sm:mt-0 mt-10 sm:mb-0 mb-10 ">
+        <h3 class="text-2xl">Informatie</h3>
+        <ul class="list-none ">
+          <li class=""><a href="affiliate">Affilate programma</a></li>
+          <li class=""><a href="contact">Contact</a></li>
+          <li class=""><a href="blog">Blog</a></li>
+
+        </ul>
+
+      </div>
+      <div class="sm:w-1/3 sm:pr-12 w-full ">
+        <h3 class="text-2xl ">Community <3 </h3> <svg class="w-10 block m-auto " aria-hidden="true" focusable="false"
+            data-prefix="fab" data-icon="facebook" class="svg-inline--fa fa-facebook fa-w-16" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="currentColor"
+              d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+            </path></svg>
       </div>
     </div>
-
-    <div class="sm:w-1/2  text-center flex  sm:p-20 items-center flex-col justify-center">
-      <h2 class="text-4xl font-bold pb-4 "> Focus op sourcing</h2>
-      <p class="text-xl">Een winnend product vinden om te verkopen op Bol is nog nooit zo makkelijk geweest. Met Bolyo
-        track je producten en kan je precies zien welke producten goed verkopen en waar kansen liggen en welke producten
-        je beter kunt overslaan.</p>
-    </div>
-
 
   </div>
 
 </div>
-<div class="business bg-primary pb-12 pt-8 pl-4 spr-4 sm:p-0 ">
-  <div class="container mx-auto max-w-screen-lg  sm:pb-8  ">
-    <h2 class="text-4xl font-bold pt-8  sm:text-center text-white">Hoe kun je Bolyo inzetten voor je business?</h2>
 
-    <div class="flex  sm:flex-row flex-col mb-4">
-      <div class="sm:w-1/2   w-auto">
-        <h3 class="text-2xl text-secondary ">Winnende producten vinden</h3>
-        <p class="text-white text-xl pt-4">Vind winnende producten zonder dat je veel moet investeren. Het is niet nodig
-          om duizenden Euro's uit te geven om te testen wat wel en niet werkt. Track een product en je weet snel genoeg
-          of het een winnend product is.</p>
-      </div>
-      <div class="sm:w-1/2  w-auto">
-        <h3 class="text-2xl pt-6 sm:pt-0 text-secondary ">Versla de concurrentie</h3>
-        <p class="text-white text-xl pt-4">Krijg inzage in de product voorraad van je concurrenten. Heb je een grote
-          promotie gepland? Controleer hoe ver je concurrenten mee kunnen gaan en profiteer van de dagen dat zij een
-          lagere voorraad hebben door bijvoorbeeld de prijs te verhogen!</p>
-      </div>
-    </div>
+<script>
+  //Javascript to toggle the menu
+  var nav = document.getElementById('nav').onclick = function () {
+    alert("Mobile menu werkt nog niet")
+    var navItem = document.getElementById('nav-items')
+    console.log(navItem.classList.toggle("hidden"));
+  }
 
-    <div class="flex  sm:flex-row flex-col mb-4">
-      <div class="sm:w-1/2   w-auto">
-        <h3 class="text-2xl text-secondary ">Affiliate prooducten</h3>
-        <p class="text-white text-xl pt-4">Ben je een affiliate die Bol.com producten wil promoten? Vind met Bolyo de
-          juiste producten die je kunt promoten en geld kunt verdienen.</p>
-      </div>
-      <div class="sm:w-1/2   w-auto">
-        <h3 class="text-2xl pt-6 sm:pt-0  text-secondary ">Jouw unieke case</h3>
-        <p class="text-white text-xl pt-4">Bolyo is multifunctioneel inzetbaar. Data is belangrijk en dat krijg je via
-          Bolyo. Gebruik het in jouw voordeel om meer omzet en winst te maken. </p>
-      </div>
-    </div>
-  </div>
-</div>
+  function openMenu() {
+    var x = document.getElementById("nav");
+    if (x.className === "hidden") {
+      x.classList.toggle("hidden");
+    } else {
+      console.log("nav");
+      x.className = "hidden";
+    }
+  }
+</script>
 
 
   
@@ -216,6 +238,8 @@ markdown file, you cannot use markdown syntax within that element's contents.
 
 
   
+
+
 </body>
 
 </html>
