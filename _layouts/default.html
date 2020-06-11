@@ -1,26 +1,38 @@
 <html>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
-  {% feed_meta %}
-  {% seo %}
-  <link rel="stylesheet" href="css/site.css">
-  <!-- <link rel="stylesheet" href="https://sljmn.github.io/bolyo-marketing/css/site.css"> -->
+  {% include head.html %}
 </head>
 
-<body class="bg-primary pt-10  px-4 text-white">
-  {% include nav.html %}
-  <section class="border border-1 w-10/12 container w-full text-white mx-auto">
-    {{ content }}
-  </section>
+<body class="font-body">
+  <div class="bg-primary  flex flex-col ">
+    <div class="container mx-auto max-w-screen-lg">
+      <header class="flex  flex-col  sm:flex-row items-center  pb-2   ">
 
-  {% include home-content.html %}
+        {% include nav.html %}
+      </header>
+
+
+
+    </div>
+  </div>
+
+
+
+  {% include page-content.html %}
+
+  {% include footer-cta.html %}
+
+
+
+  {% include footer.html %}
 
 
   {% if jekyll.environment == 'production' %}
   {% include analytics.html %}
   {% endif %}
+
+
 </body>
 
 </html>
